@@ -128,6 +128,9 @@ main{
     }
 }
 @media screen and (min-width: 375px) and (max-width: 850px){
+    main{
+         background: url(Images/bg-mobile.png), hsl(229, 57%, 11%);
+    }
     .container{
         flex-direction: column;
         align-items: flex-start;
